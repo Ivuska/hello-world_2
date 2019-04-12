@@ -1,3 +1,1 @@
-import random 
-cislo = random.randint(1,100) 
-print(cislo) 
+import sys \n cislo = random.randint(int(sys.argv[1]),int(sys.argv[2])) \n    
